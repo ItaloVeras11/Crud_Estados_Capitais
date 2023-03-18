@@ -39,6 +39,6 @@ class CreateClienteFormRequest extends FormRequest
             'email.unique'=>'O Email ja esta Cadastrado', 
             'cpf.unique'=>'O CPF ja esta Cadastrado',
             'telefone.unique'=>'Este telefone ja esta Cadastrado '         
-    ]; 
+        ]; 
     }
 }
